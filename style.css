@@ -3,10 +3,14 @@ body {
     margin: 0;
     padding: 0;
 }
+.note {
+    background-color: blue;
+    color: black;
+}
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #e9bf04;
+    color: #0e0d0d;
     padding: 20px;
     text-align: center;
 }
@@ -27,8 +31,8 @@ nav ul li a {
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #e9bf04;
+    color: #0e0d0d;
     text-align: center;
     padding: 10px;
     /*position: fixed;*/
