@@ -8,11 +8,36 @@ body {
     color: black;
 }
 
+body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(hindusity-background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+
 header {
     background-color: #e9bf04;
     color: #0e0d0d;
     padding: 20px;
     text-align: center;
+}
+
+.navbar-logo {
+    height: 100px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    vertical-align:top;
+    float: left;
+}
+
+.navbar-menu a {
+    color: rgb(196, 108, 8);
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.navbar-menu a:hover {
+    background-color: #e8ab55;
 }
 
 nav ul {
