@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(hindusity-background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+
+.note {
+    background-color: blue;
+    color: black;
+    width: 100%;
+}
+
+.navbar-logo {
+    height: 60px;
+    width:auto;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    vertical-align:center;
+    float: left;
+}
+
+.navbar-menu a {
+    color: rgb(196, 108, 8);
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.navbar-menu a:hover {
+    background-color: #e8ab55;
+}
+
+header {
+    background-color: #e9bf04;
+    color: #0e0d0d;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #e9bf04;
+    color: #0e0d0d;
+    text-align: center;
+    padding: 10px;
+    /*position: fixed;*/
+    bottom: fixed;
+    width: 100%;
+    
+}
+
